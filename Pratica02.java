@@ -13,13 +13,11 @@ public class Pratica02 {
         int[] x = new int[n];
         int[] y = new int[n];
 
-        // Leitura do vetor X
         for (int contadorVetorX = 0; contadorVetorX < x.length; contadorVetorX++) {
             System.out.print("Informe o valor para o " + (contadorVetorX + 1) + "º elemento do vetor X: ");
             x[contadorVetorX] = scanner.nextInt();
         }
 
-        // Leitura do vetor Y
         for (int contadorVetorY = 0; contadorVetorY < y.length; contadorVetorY++) {
             System.out.print("Informe o valor para o " + (contadorVetorY + 1) + "º elemento do vetor Y: ");
             y[contadorVetorY] = scanner.nextInt();
@@ -33,7 +31,6 @@ public class Pratica02 {
             tamanhoVetorZ++;
         }
 
-        // Adiciona Y sem repetir
         for (int i = 0; i < y.length; i++) {
             boolean repetido = false;
 
